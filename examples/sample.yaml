@@ -1,0 +1,20 @@
+name: example-project
+version: 1.0.0
+description: A sample YAML configuration file
+author: Developer
+environment:
+  mode: development
+  debug: true
+  port: 8080
+database:
+  host: localhost
+  port: 5432
+  name: mydb
+features:
+  - authentication
+  - logging
+  - caching
+settings:
+  timeout: 30
+  retries: 3
+  enabled: true

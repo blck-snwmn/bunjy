@@ -1,0 +1,19 @@
+{
+  "name": "bunjy",
+  "description": "YAML to JSON and JSON to YAML converter",
+  "version": "1.0.0",
+  "author": "Developer",
+  "features": [
+    "YAML to JSON conversion",
+    "JSON to YAML conversion",
+    "File input/output",
+    "Standard input/output"
+  ],
+  "config": {
+    "format": "pretty",
+    "encoding": "utf-8",
+    "strict": false
+  },
+  "dependencies": [],
+  "builtin_only": true
+}
