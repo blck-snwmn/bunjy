@@ -7,9 +7,10 @@
     "build": "bun build --compile --minify ./index.ts --outfile bunjy"
   },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "typescript": "7.0.2"
   },
   "peerDependencies": {
-    "typescript": "^5 || ^6.0.0"
+    "typescript": "^7.0.0"
   }
 }
