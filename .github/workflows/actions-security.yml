@@ -21,4 +21,8 @@ jobs:
           aqua_version: v2.62.3
       - parallel:
           - run: pinact run --check
+            env:
+              GITHUB_TOKEN: ${{ github.token }}
           - run: zizmor --format github .
+            env:
+              GH_TOKEN: ${{ github.token }}
